@@ -12,8 +12,11 @@
 <body>
   <!-- main logo / nav -->
   <header>
-    <h1>Lernantino</h1>
-    <nav>
+    <h1 id="header">Lernantino</h1>
+    <nav class="navbar">
+      <a href="#about" title="About Me">About Me</a>
+      <a href="#work" title="Work">Work</a>
+      <a href="#contact" title="Contact Me">Contact Me</a>
     </nav>
   </header>
 
@@ -26,18 +29,62 @@
 
   <main class="page-wrapper">
     <!-- about me -->
-    <section class="page-section" id="about">
+    <section class="page-section about" id="about">
       <h2>About Me</h2>
+    </section>
+    <section class="page-content about">
+        <P>
+          lorem ipsum
+        </P>
     </section>
 
     <!-- portfolio container -->
-    <section class="page-section" id="work">
+    <section class="page-section work" id="work">
       <h2>Work</h2>
+    </section>
+    <section class="page-content work">
+      <figure class="card" id="app1">
+        <h3 class="card-header">Application 1</h3>
+        <div class="card-body">
+          <p>Caption</p>
+        </div>
+      </figure>
+      <figure class="card" id="app2">
+        <h3 class="card-header">Application 2</h3>
+        <div class="card-body">
+          <p>Caption</p>
+        </div>
+      </figure>
+      <figure class="card" id="app3">
+        <h3 class="card-header">Application 3</h3>
+        <div class="card-body">
+          <p>Caption</p>
+        </div>
+      </figure>
+      <figure class="card" id="app4">
+        <h3 class="card-header">Application 4</h3>
+        <div class="card-body">
+          <p>Caption</p>
+        </div>
+      </figure>
+      <figure class="card" id="app5">
+        <h3 class="card-header">Application 5</h3>
+        <div class="card-body">
+          <p>Caption</p>
+        </div>
+      </figure>
     </section>
 
     <!-- contact -->
     <section class="page-section contact" id="contact">
       <h2>Contact Me</h2>
+    </section>
+    <section class="page-content contact">
+      <p>telephone no</p>
+      <p>email</p>
+      <p>GitHub</p>
+      <p>LinkedIn</p>
+      <p>Twitter</p>
     </section>
   </main>
 </body>
