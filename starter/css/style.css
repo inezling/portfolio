@@ -4,7 +4,7 @@
 
 :root {
   --dark: #5f7daf;
-  --light: #afafc7;
+  --light: #bebed7;
 }
 
 body {
@@ -12,33 +12,47 @@ body {
   padding: 0;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   line-height: 1.5;
-  background-color: #f7dfd3;
+  background-color: #ebd2c5;
 }
 
 header {
+  display: flex;
   background-color: var(--dark);
-  height: 70px;
 }
 
 h1, h2, h3 {
   font-style: bold;
+  padding: 5px;
 }
 
 h1 {
   display: inline-block;
-  padding: 5px;
   background-color: var(--light);
   color: var(--dark);
-  margin: 5px;
+  padding: 0px 5px 0px 40px;
+  margin: 5px 0px;
 }
 
 nav {
-  display: inline-block;
+  display: inline-flex;
+  padding: 5px;
+  height: auto;
+  width: 80%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
 }
 
-nav a {
+a {
+  display: inline-flex;
   color: var(--light);
   font-style: bold;
+  font-size: 20px;
+  text-decoration-line:none;
+  padding: 0px 15px 5px 15px;
+  /*border: 10px;
+  border-color: var(--light);
+  */
 }
 
 p {
